@@ -1,0 +1,25 @@
+{
+    "name": "express-decorator",
+    "version": "0.0.1",
+    "description": "Decoradores para express",
+    "author": "Pablo Ramírez",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "build": "tsc -d",
+        "preinstall": "npm install --ignore-scripts && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:paramirez/express-decorator.git"
+    },
+    "private": true,
+    "keywords": [],
+    "dependencies": {
+        "express": "^4.17.1",
+        "reflect-metadata": "^0.1.13"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.2"
+    }
+}
